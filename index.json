@@ -33,24 +33,1799 @@
   ],
   "plugins": [
     {
-      "id": "zsh-syntax-highlighting",
-      "url": "${REPO_BASE}/zsh-users/zsh-syntax-highlighting.git",
-      "type": "git"
+      "id": "1password",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/1password/1password.plugin.zsh",
+      "type": "file"
     },
     {
-      "id": "zsh-autosuggestions",
-      "url": "${REPO_BASE}/zsh-users/zsh-autosuggestions.git",
-      "type": "git"
+      "id": "alias-finder",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/alias-finder/alias-finder.plugin.zsh",
+      "type": "file"
     },
     {
-      "id": "git",
-      "url": "${REPO_BASE}/ohmyzsh/ohmyzsh/blob/master/plugins/git/git.plugin.zsh",
-      "type": "git"
+      "id": "aliases",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/aliases/aliases.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "ansible",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/ansible/ansible.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "ant",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/ant/ant.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "apache2-macports",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/apache2-macports/apache2-macports.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "arcanist",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/arcanist/arcanist.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "archlinux",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/archlinux/archlinux.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "arduino-cli",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/arduino-cli/arduino-cli.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "argocd",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/argocd/argocd.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "asdf",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/asdf/asdf.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "autoenv",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/autoenv/autoenv.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "autojump",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/autojump/autojump.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "autopep8",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/autopep8/autopep8.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "aws",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/aws/aws.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "azure",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/azure/azure.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "battery",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/battery/battery.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "bazel",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/bazel/bazel.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "bbedit",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/bbedit/bbedit.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "bedtools",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/bedtools/bedtools.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "bgnotify",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/bgnotify/bgnotify.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "bower",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/bower/bower.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "branch",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/branch/branch.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "brew",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/brew/brew.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "bridgetown",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/bridgetown/bridgetown.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "buf",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/buf/buf.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "bun",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/bun/bun.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "bundler",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/bundler/bundler.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "cabal",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/cabal/cabal.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "cake",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/cake/cake.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "cakephp3",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/cakephp3/cakephp3.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "capistrano",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/capistrano/capistrano.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "cask",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/cask/cask.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "catimg",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/catimg/catimg.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "cdk",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/cdk/cdk.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "celery",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/celery/celery.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "charm",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/charm/charm.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "chezmoi",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/chezmoi/chezmoi.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "chruby",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/chruby/chruby.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "chucknorris",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/chucknorris/chucknorris.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "cloudfoundry",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/cloudfoundry/cloudfoundry.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "codeclimate",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/codeclimate/codeclimate.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "codex",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/codex/codex.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "coffee",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/coffee/coffee.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "colemak",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/colemak/colemak.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "colored-man-pages",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/colored-man-pages/colored-man-pages.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "colorize",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/colorize/colorize.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "command-not-found",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/command-not-found/command-not-found.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "common-aliases",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/common-aliases/common-aliases.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "compleat",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/compleat/compleat.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "composer",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/composer/composer.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "conda",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/conda/conda.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "conda-env",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/conda-env/conda-env.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "copybuffer",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/copybuffer/copybuffer.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "copyfile",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/copyfile/copyfile.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "copypath",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/copypath/copypath.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "cp",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/cp/cp.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "cpanm",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/cpanm/cpanm.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "dash",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/dash/dash.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "dbt",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/dbt/dbt.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "debian",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/debian/debian.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "deno",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/deno/deno.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "dircycle",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/dircycle/dircycle.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "direnv",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/direnv/direnv.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "dirhistory",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/dirhistory/dirhistory.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "dirpersist",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/dirpersist/dirpersist.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "dnf",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/dnf/dnf.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "dnote",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/dnote/dnote.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "docker",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/docker/docker.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "docker-compose",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/docker-compose/docker-compose.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "doctl",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/doctl/doctl.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "dotenv",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/dotenv/dotenv.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "dotnet",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/dotnet/dotnet.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "droplr",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/droplr/droplr.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "drush",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/drush/drush.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "eecms",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/eecms/eecms.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "emacs",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/emacs/emacs.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "ember-cli",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/ember-cli/ember-cli.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "emoji",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/emoji/emoji.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "emoji-clock",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/emoji-clock/emoji-clock.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "emotty",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/emotty/emotty.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "encode64",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/encode64/encode64.plugin.zsh",
+      "type": "file"
     },
     {
       "id": "extract",
-      "url": "${REPO_BASE}/ohmyzsh/ohmyzsh/blob/master/plugins/extract/extract.plugin.zsh",
-      "type": "git"
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/extract/extract.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "eza",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/eza/eza.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "fabric",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/fabric/fabric.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "fancy-ctrl-z",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/fancy-ctrl-z/fancy-ctrl-z.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "fasd",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/fasd/fasd.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "fastfile",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/fastfile/fastfile.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "fbterm",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/fbterm/fbterm.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "firewalld",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/firewalld/firewalld.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "flutter",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/flutter/flutter.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "fluxcd",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/fluxcd/fluxcd.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "fnm",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/fnm/fnm.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "foot",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/foot/foot.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "forklift",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/forklift/forklift.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "fossil",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/fossil/fossil.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "frontend-search",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/frontend-search/frontend-search.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "fzf",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/fzf/fzf.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "gas",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/gas/gas.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "gatsby",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/gatsby/gatsby.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "gcloud",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/gcloud/gcloud.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "geeknote",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/geeknote/geeknote.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "gem",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/gem/gem.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "genpass",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/genpass/genpass.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "gh",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/gh/gh.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "git",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/git/git.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "git-auto-fetch",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/git-auto-fetch/git-auto-fetch.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "git-commit",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/git-commit/git-commit.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "git-escape-magic",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/git-escape-magic/git-escape-magic.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "git-extras",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/git-extras/git-extras.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "git-flow",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/git-flow/git-flow.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "git-flow-avh",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/git-flow-avh/git-flow-avh.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "git-hubflow",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/git-hubflow/git-hubflow.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "git-lfs",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/git-lfs/git-lfs.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "git-prompt",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/git-prompt/git-prompt.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "gitfast",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/gitfast/gitfast.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "github",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/github/github.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "gitignore",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/gitignore/gitignore.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "glassfish",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/glassfish/glassfish.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "globalias",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/globalias/globalias.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "gnu-utils",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/gnu-utils/gnu-utils.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "golang",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/golang/golang.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "gpg-agent",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/gpg-agent/gpg-agent.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "gradle",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/gradle/gradle.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "grails",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/grails/grails.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "grc",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/grc/grc.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "grunt",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/grunt/grunt.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "gulp",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/gulp/gulp.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "hanami",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/hanami/hanami.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "hasura",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/hasura/hasura.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "hcloud",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/hcloud/hcloud.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "helm",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/helm/helm.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "heroku",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/heroku/heroku.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "heroku-alias",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/heroku-alias/heroku-alias.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "history",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/history/history.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "history-substring-search",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/history-substring-search/history-substring-search.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "hitchhiker",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/hitchhiker/hitchhiker.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "hitokoto",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/hitokoto/hitokoto.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "homestead",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/homestead/homestead.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "httpie",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/httpie/httpie.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "invoke",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/invoke/invoke.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "ionic",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/ionic/ionic.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "ipfs",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/ipfs/ipfs.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "isodate",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/isodate/isodate.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "istioctl",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/istioctl/istioctl.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "iterm2",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/iterm2/iterm2.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "jake-node",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/jake-node/jake-node.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "jenv",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/jenv/jenv.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "jfrog",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/jfrog/jfrog.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "jhbuild",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/jhbuild/jhbuild.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "jira",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/jira/jira.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "jj",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/jj/jj.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "jruby",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/jruby/jruby.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "jsontools",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/jsontools/jsontools.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "juju",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/juju/juju.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "jump",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/jump/jump.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "k9s",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/k9s/k9s.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "kamal",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/kamal/kamal.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "kate",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/kate/kate.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "keychain",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/keychain/keychain.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "kind",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/kind/kind.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "kitchen",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/kitchen/kitchen.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "kitty",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/kitty/kitty.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "kn",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/kn/kn.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "knife",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/knife/knife.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "knife_ssh",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/knife_ssh/knife_ssh.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "kompose",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/kompose/kompose.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "kops",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/kops/kops.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "kube-ps1",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/kube-ps1/kube-ps1.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "kubectl",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/kubectl/kubectl.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "kubectx",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/kubectx/kubectx.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "lando",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/lando/lando.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "laravel",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/laravel/laravel.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "laravel4",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/laravel4/laravel4.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "laravel5",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/laravel5/laravel5.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "last-working-dir",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/last-working-dir/last-working-dir.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "lein",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/lein/lein.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "lighthouse",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/lighthouse/lighthouse.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "localstack",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/localstack/localstack.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "lol",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/lol/lol.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "lpass",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/lpass/lpass.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "lxd",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/lxd/lxd.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "macos",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/macos/macos.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "macports",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/macports/macports.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "magic-enter",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/magic-enter/magic-enter.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "man",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/man/man.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "marked2",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/marked2/marked2.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "marktext",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/marktext/marktext.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "mercurial",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/mercurial/mercurial.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "meteor",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/meteor/meteor.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "microk8s",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/microk8s/microk8s.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "minikube",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/minikube/minikube.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "mise",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/mise/mise.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "mix",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/mix/mix.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "mix-fast",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/mix-fast/mix-fast.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "molecule",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/molecule/molecule.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "mongo-atlas",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/mongo-atlas/mongo-atlas.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "mongocli",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/mongocli/mongocli.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "mosh",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/mosh/mosh.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "multipass",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/multipass/multipass.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "mvn",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/mvn/mvn.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "mysql-macports",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/mysql-macports/mysql-macports.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "n98-magerun",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/n98-magerun/n98-magerun.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "nanoc",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/nanoc/nanoc.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "nats",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/nats/nats.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "nestjs",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/nestjs/nestjs.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "ng",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/ng/ng.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "ngrok",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/ngrok/ngrok.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "nmap",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/nmap/nmap.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "node",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/node/node.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "nodenv",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/nodenv/nodenv.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "nomad",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/nomad/nomad.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "npm",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/npm/npm.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "nvm",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/nvm/nvm.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "oc",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/oc/oc.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "octozen",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/octozen/octozen.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "opentofu",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/opentofu/opentofu.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "operator-sdk",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/operator-sdk/operator-sdk.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "otp",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/otp/otp.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "pass",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/pass/pass.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "pass-cli",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/pass-cli/pass-cli.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "paver",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/paver/paver.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "pep8",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/pep8/pep8.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "per-directory-history",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/per-directory-history/per-directory-history.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "percol",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/percol/percol.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "perl",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/perl/perl.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "perms",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/perms/perms.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "phing",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/phing/phing.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "pip",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/pip/pip.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "pipenv",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/pipenv/pipenv.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "pj",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/pj/pj.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "please",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/please/please.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "pm2",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/pm2/pm2.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "pod",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/pod/pod.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "podman",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/podman/podman.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "poetry",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/poetry/poetry.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "poetry-env",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/poetry-env/poetry-env.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "postgres",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/postgres/postgres.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "pow",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/pow/pow.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "powder",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/powder/powder.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "powify",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/powify/powify.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "pre-commit",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/pre-commit/pre-commit.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "procs",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/procs/procs.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "profiles",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/profiles/profiles.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "pulumi",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/pulumi/pulumi.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "pyenv",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/pyenv/pyenv.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "pylint",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/pylint/pylint.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "python",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/python/python.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "qodana",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/qodana/qodana.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "qrcode",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/qrcode/qrcode.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "rails",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/rails/rails.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "rake",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/rake/rake.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "rake-fast",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/rake-fast/rake-fast.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "rand-quote",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/rand-quote/rand-quote.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "rbenv",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/rbenv/rbenv.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "rbw",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/rbw/rbw.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "rclone",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/rclone/rclone.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "react-native",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/react-native/react-native.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "rebar",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/rebar/rebar.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "redis-cli",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/redis-cli/redis-cli.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "repo",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/repo/repo.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "ros",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/ros/ros.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "rsync",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/rsync/rsync.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "ruby",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/ruby/ruby.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "rust",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/rust/rust.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "rvm",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/rvm/rvm.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "safe-paste",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/safe-paste/safe-paste.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "salt",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/salt/salt.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "samtools",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/samtools/samtools.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "sbt",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/sbt/sbt.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "scala",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/scala/scala.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "scd",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/scd/scd.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "screen",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/screen/screen.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "scw",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/scw/scw.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "sdk",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/sdk/sdk.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "sfdx",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/sfdx/sfdx.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "sfffe",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/sfffe/sfffe.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "shell-proxy",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/shell-proxy/shell-proxy.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "shrink-path",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/shrink-path/shrink-path.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "sigstore",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/sigstore/sigstore.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "singlechar",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/singlechar/singlechar.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "skaffold",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/skaffold/skaffold.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "snap",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/snap/snap.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "spackenv",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/spackenv/spackenv.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "spring",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/spring/spring.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "sprunge",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/sprunge/sprunge.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "ssh",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/ssh/ssh.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "ssh-agent",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/ssh-agent/ssh-agent.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "stack",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/stack/stack.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "starship",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/starship/starship.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "stripe",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/stripe/stripe.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "sublime",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/sublime/sublime.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "sublime-merge",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/sublime-merge/sublime-merge.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "sudo",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/sudo/sudo.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "supervisor",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/supervisor/supervisor.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "suse",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/suse/suse.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "svcat",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/svcat/svcat.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "svn",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/svn/svn.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "svn-fast-info",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/svn-fast-info/svn-fast-info.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "swiftpm",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/swiftpm/swiftpm.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "symfony",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/symfony/symfony.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "symfony2",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/symfony2/symfony2.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "symfony6",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/symfony6/symfony6.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "systemadmin",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/systemadmin/systemadmin.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "systemd",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/systemd/systemd.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "tailscale",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/tailscale/tailscale.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "task",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/task/task.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "taskwarrior",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/taskwarrior/taskwarrior.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "term_tab",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/term_tab/term_tab.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "terminitor",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/terminitor/terminitor.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "terraform",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/terraform/terraform.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "textastic",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/textastic/textastic.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "textmate",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/textmate/textmate.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "thefuck",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/thefuck/thefuck.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "themes",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/themes/themes.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "thor",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/thor/thor.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "tig",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/tig/tig.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "timer",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/timer/timer.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "timoni",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/timoni/timoni.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "tldr",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/tldr/tldr.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "tmux",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/tmux/tmux.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "tmux-cssh",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/tmux-cssh/tmux-cssh.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "tmuxinator",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/tmuxinator/tmuxinator.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "toolbox",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/toolbox/toolbox.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "torrent",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/torrent/torrent.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "transfer",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/transfer/transfer.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "tt",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/tt/tt.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "tugboat",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/tugboat/tugboat.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "ubuntu",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/ubuntu/ubuntu.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "ufw",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/ufw/ufw.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "universalarchive",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/universalarchive/universalarchive.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "urltools",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/urltools/urltools.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "uv",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/uv/uv.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "vagrant",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/vagrant/vagrant.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "vagrant-prompt",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/vagrant-prompt/vagrant-prompt.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "vault",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/vault/vault.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "vi-mode",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/vi-mode/vi-mode.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "vim-interaction",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/vim-interaction/vim-interaction.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "virtualenv",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/virtualenv/virtualenv.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "virtualenvwrapper",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/virtualenvwrapper/virtualenvwrapper.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "volta",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/volta/volta.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "vscode",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/vscode/vscode.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "vundle",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/vundle/vundle.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "wakeonlan",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/wakeonlan/wakeonlan.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "watson",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/watson/watson.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "wd",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/wd/wd.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "web-search",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/web-search/web-search.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "wp-cli",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/wp-cli/wp-cli.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "xcode",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/xcode/xcode.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "yarn",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/yarn/yarn.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "yii",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/yii/yii.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "yii2",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/yii2/yii2.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "yum",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/yum/yum.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "z",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/z/z.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "zbell",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/zbell/zbell.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "zeus",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/zeus/zeus.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "zoxide",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/zoxide/zoxide.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "zsh-interactive-cd",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh",
+      "type": "file"
+    },
+    {
+      "id": "zsh-navigation-tools",
+      "url": "https://raw.github.com/ohmyzsh/ohmyzsh/master/plugins/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh",
+      "type": "file"
     }
   ]
 }
