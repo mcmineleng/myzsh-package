@@ -1,0 +1,1 @@
+{"env":{"REPO_BASE":"https://github.com/"},"plugins":[{"id":"zsh-syntax-highlighting","url":"${REPO_BASE}zsh-users/zsh-syntax-highlighting.git","type":"git"},{"id":"zsh-syntax-highlighting","url":"${REPO_BASE}marlonrichert/zsh-autocomplete.git","type":"git"},{"id":"zsh-autosuggestions","url":"${REPO_BASE}zsh-users/zsh-autosuggestions.git","type":"git"}]}
