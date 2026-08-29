@@ -1,0 +1,56 @@
+{
+  "env": [
+    {
+      "REPO_BASE": "https://github.com"
+    }
+  ],
+  "themes": [
+    {
+      "id": "powerlevel10k",
+      "url": "${REPO_BASE}/romkatv/powerlevel10k.git",
+      "type": "git"
+    },
+    {
+      "id": "agnoster",
+      "url": "${REPO_BASE}/agnoster/agnoster-zsh-theme.git",
+      "type": "git"
+    },
+    {
+      "id": "robbyrussell",
+      "url": "${REPO_BASE}/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme",
+      "type": "git"
+    },
+    {
+      "id": "bira",
+      "url": "${REPO_BASE}/ohmyzsh/ohmyzsh/blob/master/themes/bira.zsh-theme",
+      "type": "git"
+    },
+    {
+      "id": "lambda",
+      "url": "${REPO_BASE}/ohmyzsh/ohmyzsh/blob/master/themes/lambda.zsh-theme",
+      "type": "git"
+    }
+  ],
+  "plugins": [
+    {
+      "id": "zsh-syntax-highlighting",
+      "url": "${REPO_BASE}/zsh-users/zsh-syntax-highlighting.git",
+      "type": "git"
+    },
+    {
+      "id": "zsh-autosuggestions",
+      "url": "${REPO_BASE}/zsh-users/zsh-autosuggestions.git",
+      "type": "git"
+    },
+    {
+      "id": "git",
+      "url": "${REPO_BASE}/ohmyzsh/ohmyzsh/blob/master/plugins/git/git.plugin.zsh",
+      "type": "git"
+    },
+    {
+      "id": "extract",
+      "url": "${REPO_BASE}/ohmyzsh/ohmyzsh/blob/master/plugins/extract/extract.plugin.zsh",
+      "type": "git"
+    }
+  ]
+}
